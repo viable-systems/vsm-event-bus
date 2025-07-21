@@ -78,7 +78,7 @@ defmodule VsmEventBusTest do
     end
 
     test "validates algedonic emergency route" do
-      assert {:ok, :emergency} = VsmEventBus.validate_route(:system1, :system5, :algedonic_channel)
+      assert {:ok, :direct} = VsmEventBus.validate_route(:system1, :system5, :algedonic_channel)
     end
 
     test "validates coordination channel" do

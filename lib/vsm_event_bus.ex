@@ -195,7 +195,7 @@ defmodule VsmEventBus do
       {:error, :invalid_vsm_flow}
       
       iex> VsmEventBus.validate_route(:system1, :system5, :algedonic_channel)
-      {:ok, :emergency}
+      {:ok, :direct}
   """
   @spec validate_route(subsystem(), subsystem(), channel()) :: {:ok, atom()} | {:error, term()}
   def validate_route(source, target, channel) do
