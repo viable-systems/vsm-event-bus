@@ -43,7 +43,7 @@ defmodule VsmEventBus.MixProject do
       {:phoenix_pubsub, "~> 2.1"},
       {:libcluster, "~> 3.3"},
       {:telemetry, "~> 1.2"},
-      {:telemetry_metrics, "~> 0.6"},
+      {:telemetry_metrics, "~> 1.0"},
       {:jason, "~> 1.4"},
       {:uuid, "~> 1.1"},
       
